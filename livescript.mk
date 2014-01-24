@@ -1,8 +1,6 @@
 LIB=lib
 SRC=src
 
-LS_OPTS=-k
-
 LS_FILES = $(shell find $(SRC)/ -type f -name '*.ls')
 JS_FILES = $(patsubst $(SRC)/%.ls, $(LIB)/%.js, $(LS_FILES))
 
