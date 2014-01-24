@@ -1,0 +1,11 @@
+{
+  "name": "make-livescript",
+  "version": "0.0.0",
+  "description": "Makefile include for Livescript",
+  "keywords": [
+    "makefile",
+    "livescript"
+  ],
+  "author": "Matt Brennan <mwrbrennan@gmail.com>",
+  "license": "MIT"
+}
